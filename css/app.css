@@ -1,0 +1,14 @@
+body {
+  margin:0;
+  font-family: inherit; serif;
+}
+
+header {
+  display:block;
+  font-weight: bold;
+  font-size: 300%;
+  color: grey;
+  margin:0 auto;
+  width: auto;
+  height: auto;
+}
