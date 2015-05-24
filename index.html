@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Potluck</title>
+    <title>Putlock</title>
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
     <header>
-      <h2>gSchool Putlock</h2>
+      <h2>gSchool <span class="h2">Potluck</span></h2>
     </header>
     <div class="theme">
       <span>This week's theme:</span>
@@ -14,15 +14,15 @@
     <form action="index.html" method="post">
       <div class="name">
         <label for="name">Who:</label>
-        <input type="text" name="name" placeholder="Iago" autofocus>
+        <input type="text" name="name" id="name" placeholder="Iago" autofocus>
       </div>
       <div class="food">
         <label for="food">What:</label>
-        <input type="text" name="food" placeholder="Mom's Stew">
+        <input type="text" name="food" id="food" placeholder="Mom's Stew">
       </div>
       <div class="date">
         <label for="date">When:</label>
-        <select class="sdate" name="date">
+        <select class="sdate" name="date" id="date">
           <option value="date1" selected>5/26</option>
           <option value="date2">6/12</option>
           <option value="date3">6/30</option>
@@ -30,48 +30,125 @@
       </div>
       <div class="category">
         <label for="category">Category:</label>
-        <select class="scategory" name="date">
+        <select class="scategory" name="date" id="category">
           <option value="main" selected>Main</option>
           <option value="side">Side</option>
           <option value="dessert">Dessert</option>
         </select>
-      </div>
+      </div><br>
       <div class="button">
-        <input type="button" name="submit" value="Join the Party!">
-      </div>
+        <input type="submit" value="Join the Party!">
+      </div><br>
     </form>
     <div class="Table1">
       <table>
         <thead>
-          <th>
-            Date:
-          </th>
+          <tr>
+            <th>
+              <span>Main</span>
+            </th>
+            <th>
+              <span>Side</span>
+            </th>
+            <th>
+              <span>Dessert</span>
+            </th>
+          </tr>
         </thead>
         <tbody>
           <tr>
             <td>
-              <span>Name</span>
+              <span></span>
             </td>
             <td>
-              <span>Main</span>
+              <span></span>
             </td>
+              <span></span>
             <td>
-              <span>Sides</span>
+              <span></span>
             </td>
-            <td>
-              <span>Dessert</span>
+              <span></span>
+            <td  class="delete">
+              <input type="submit" value="X">
             </td>
           </tr>
           <tr>
             <td>
+              <span></span>
             </td>
             <td>
+              <span></span>
+            </td>
+              <span></span>
+            <td>
+              <span></span>
+            </td>
+              <span></span>
+            <td  class="delete">
+              <input type="button" name="delete" value="X">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span></span>
             </td>
             <td>
+              <span></span>
+            </td>
+              <span></span>
+            <td>
+              <span></span>
+            </td>
+              <span></span>
+            <td  class="delete">
+              <input type="button" name="delete" value="X">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span></span>
             </td>
             <td>
+              <span></span>
+            </td>
+              <span></span>
+            <td>
+              <span></span>
+            </td>
+              <span></span>
+            <td  class="delete">
+              <input type="button" name="delete" value="X">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span></span>
             </td>
             <td>
+              <span></span>
+            </td>
+              <span></span>
+            <td>
+              <span></span>
+            </td>
+              <span></span>
+            <td  class="delete">
+              <input type="button" name="delete" value="X">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span></span>
+            </td>
+            <td>
+              <span></span>
+            </td>
+              <span></span>
+            <td>
+              <span></span>
+            </td>
+              <span></span>
+            <td  class="delete">
               <input type="button" name="delete" value="X">
             </td>
           </tr>
